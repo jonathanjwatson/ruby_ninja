@@ -12,6 +12,7 @@ puts silly_nilly
 
 stilly_string = "#{silly_nilly} was here"
 print stilly_string
+
 puts stilly_string.class
 
 d = 3
@@ -21,4 +22,13 @@ e = 3.1
 puts e
 
 d = 3
-puts d 
+puts d
+
+christine = "Hi, I'm Christine"
+likesTo = "long walks on the beach, kinda."
+tims = "#{christine} and I like #{likesTo}"
+puts tims
+
+g = "2"
+gToNumber = 2
+puts g.to_i + gToNumber
