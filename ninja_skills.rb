@@ -32,3 +32,9 @@ puts tims
 g = "2"
 gToNumber = 2
 puts g.to_i + gToNumber
+
+puts "What's your name?"
+user_name = gets
+puts "What do you like to do?"
+user_likes = gets
+puts "#{user_name} likes to #{user_likes}"
